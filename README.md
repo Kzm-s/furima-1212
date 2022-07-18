@@ -70,10 +70,8 @@
 
 ## addressテーブル
 
-|Column      |Type  |Options    |
-
+|Column        |Type  |Options                       |
 |--------------|------|------------------------------|
-
 |order_id      |int   |null: false, foreign_key: true|
 |post_code     |string|null: false                   |
 |prefecture_id |int   |null: false                   |
