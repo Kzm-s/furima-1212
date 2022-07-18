@@ -2,9 +2,7 @@
 ## usersテーブル
 
 |Column               |Type  |Options    |
-
 |---------------------|------|-----------|
-
 |id                   |int   |null: false|
 |nickname             |string|null: false|
 |email                |string|null: false|
@@ -32,9 +30,7 @@
 ## itemsテーブル
 
 |Column      |Type  |Options    |
-
 |------------|------|------------------------------|
-
 |id          |int   |null: false                   |
 |user_id     |int   |null: false, foreign_key: true|
 |name        |string|null: false                   |
@@ -57,9 +53,7 @@
 ## ordersテーブル
 
 |Column  |Type  |Options                       |
-
 |--------|------|------------------------------|
-
 |id      |int   |null: false                   |
 |user_id |int   |null: false, foreign_key: true|
 |item_id |int   |null: false, foreign_key: true|
