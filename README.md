@@ -65,7 +65,7 @@
 
 - belongs_to :user
 - belongs_to :item
-- belongs_to :address
+- has_one :address
 
 
 ## addressテーブル
@@ -85,5 +85,5 @@
 
 ### Association
 
-- has_one :order
+- belongs_to :order
 
